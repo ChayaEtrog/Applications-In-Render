@@ -1,26 +1,3 @@
-// const renderApi = require('@api/render-api');
-
-// renderApi.auth('rnd_Y4Syek9jpaEatOR6OwIe3ui8cDj5');
-// renderApi.listServices({ includePreviews: 'true', limit: '20' })
-//   .then(({ data }) => console.log(data))
-//   .catch(err => console.error(err));
-
-// const express = require("express"); // יבוא Express
-// const app = express(); // יצירת מופע של האפליקציה
-
-// const PORT = process.env.PORT || 3000;
-
-// app.get("/", (req, res) => {
-//   res.send("Server is running!");
-// });
-
-// app.listen(PORT, () => {
-//   console.log(`Server is running on port ${PORT}`);
-// });
-
-// app.listen(PORT, () => {
-//   console.log(`Server is running on port ${PORT}`);
-// });
 require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
